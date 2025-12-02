@@ -7,18 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     </head>
     <body>
-        <header>
-            <div class="logo">
-
-            </div>
-<nav>
-    <u1>
-        <li><i class="fa-solid fa-house-chimney-user"></i><a href="index.html">Home</a></li>
-        <li><i class="fa-regular fa-address-card"></i><a href="about.html">About us</a></li>
-        <li><i class="fa-solid fa-id-card"></i><a href="contact.html">Contact us</a></li>
-    </u1>
-</nav>
-        </header>
+     <?php include 'header.php'; ?>
         <main>
             <div class="item">
                  <div class="child1">
@@ -56,11 +45,6 @@
                 </div>
                 
         </main>
-        <footer>
-        <ul class="kap">
-            <li><i class="fa-solid fa-envelope"></i><a href="blog@blog.blog">blog@blog.blog</a></li>
-            <li><i class="fa-solid fa-phone-flip"></i><a href ="tel:+37477888946">+37477888946</a></li>
-        </ul>
-        </footer>
+        <?php include 'footer.php' ; ?>
     </body>
 </html>
