@@ -7,8 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     </head>
     <body>
-     <?php include 'header.php'; ?>
-        <main>
+<?php include 'header.php';?>
             <div class="item">
                  <div class="child1">
                     <div>
@@ -45,6 +44,6 @@
                 </div>
                 
         </main>
-        <?php include 'footer.php' ; ?>
+      <?php include 'footer.php';?>
     </body>
 </html>
